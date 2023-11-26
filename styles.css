@@ -12,11 +12,11 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: 30%;
+   margin-top: 20%;
 }
    
 .calculadora{
-   background-color: rgb(221, 235, 235);
+   background-color: rgb(237, 171, 183);
    color: white;
    width: 350px;
    max-width: 100%;
@@ -28,7 +28,7 @@ body{
 }
 .pantalla{
    grid-column: 1/ -1 ;
-   background-color: #d92780; 
+   background-color: #8E44AD ; 
    padding: 1.5rem;
    font-size: 2rem;
    text-align: right;
@@ -39,13 +39,13 @@ body{
    
 }
 .pantalla:hover{
-   background-color:#fabada ;
+   background-color: #6ab721 ;
 }
 
 .btn{
-   background-color: rgb(160, 184, 41); 
-   color: bisque;
-   border: 0.1;
+   background-color:rgb(72, 72, 238); 
+   color: rgb(12, 12, 12);
+   border: 100;
    padding: 1.5rem .5rem;
    display: flex;
    justify-content: center;
@@ -54,7 +54,7 @@ body{
    }
 
    .btn:hover{
-      background-color:  rgb(80, 80, 143);
+      background-color:rgb(235, 54, 84) ;
    }
 
    #cero{
@@ -63,10 +63,10 @@ body{
 
    #igual{
       grid-row: span 2;
-      background-color:rgb(159, 159, 226) ;
+      background-color: rgb(28, 28, 192) ;
    }
    #igual:hover{
-      background-color:rgb(26, 213, 151) ;
+      background-color:rgb(250, 225, 83) ;
    }
 
 
